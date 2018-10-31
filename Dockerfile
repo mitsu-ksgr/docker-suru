@@ -2,7 +2,6 @@ FROM alpine:3.8
 LABEL maintainer="mitsu-ksgr <k.sgr.mtisu.g@gmail.com>"
 
 ENV DOCKER_MACHINE_VERSION=v0.15.0
-ENV DOCKER_COMPOSE_VERSION=1.6.2
 
 RUN apk --no-cache update && \
     apk --no-cache upgrade && \
